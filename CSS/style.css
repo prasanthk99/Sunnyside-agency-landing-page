@@ -1,0 +1,305 @@
+body{
+    font-size:18px; 
+}
+
+h1{
+    margin-bottom: 50px;
+    font-family: 'Fraunces', serif;
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+
+h2{
+    font-family: 'Fraunces', serif;
+}
+
+p{
+    color: hsl(213, 9%, 39%);
+    font-family: 'Barlow', sans-serif; 
+}
+
+a{
+    color:unset;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+/* Nav-Bar */
+
+.nav-bar{
+    align-items: baseline;
+    
+}
+
+.nav-item{
+    margin-right: 40px;
+    align-self: center;
+}
+
+.btn{
+    border-radius: 40px;
+    padding: 0px 30px;
+    height: 50px;
+    align-self: center;
+    font-family: 'Fraunces', serif;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+.btn:hover{
+    color:white;
+    background-color: #6fcfff;
+}
+
+/* Header-Section */
+
+.Top-page{
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* background-attachment: fixed;     */
+    color: white;
+    padding: 2% 7%;
+    padding-bottom: 300px;   
+}
+
+.header-text{
+    text-align: center;
+    margin-top: 10%;
+}
+
+/* Middle Section */
+
+#middle-sec{
+    width: 100%;
+    overflow:hidden;
+}
+
+.mid-text{
+    align-self: center;
+    padding: 40px 100px;  
+}
+
+.mid-text a{
+    font-size: 1.1rem;
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+}
+
+.mid-img{
+    padding: 0;
+}
+
+.egg-sec{
+    flex-direction: row-reverse;
+}
+
+.egg-img,.glass-img{  
+    max-width: 100%;
+}
+
+.limg-rows{
+    text-align: center;
+    background-size: cover;
+    padding: 40px 150px;
+    margin: 0;
+    align-self: stretch;
+}
+
+.limg-rows h2{
+    margin-top: 300px;
+}
+
+.graphic-sec{
+    color: hsl(167, 40%, 24%);
+}
+
+.photography-sec{
+    color: hsl(198, 62%, 26%);
+}
+
+.egg-lm:hover{
+    color:unset;
+    text-decoration-color:hsl(51, 100%, 49%);
+    text-decoration-thickness: 5px;
+}
+
+.glass-lm:hover{
+    color:unset;
+    text-decoration-color: hsl(7, 99%, 70%);
+    text-decoration-thickness: 5px;
+}
+
+
+/* Testmonial */
+
+.testmonial{
+    padding: 8% 10%;
+    text-align: center;
+    font-weight: 500;
+}
+.testmonial-col{
+    padding: 10px 10px;
+}
+.testmonial h3{
+    font-family: 'Fraunces', serif;
+    color: hsl(232, 10%, 55%);
+}
+
+.testmonial h4{
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 27%, 19%);
+}
+.test-img{
+    border-radius: 100%;
+    margin:50px 5px;
+    width: 30%;
+}
+.job-position{
+    color: hsl(213, 9%, 39%);
+    opacity: 0.6;
+    font-size: 1rem;
+}
+
+/* Bottom Gallery */
+
+.bottom-gallery{
+    margin-top: 40px;
+}    
+.bottom-gallery img{
+    padding: 0;
+}
+
+/* Footer-Section */
+
+.footer{
+    text-align: center;
+    padding: 40px;
+    background-color: #90d4c5;
+    color: hsl(167, 40%, 24%);
+}
+
+.fbrand{
+    margin: 10px 0px 30px;
+}
+
+.footer a{
+    margin: 20px;
+    color: hsl(167, 40%, 24%);
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: white;
+}
+
+.f-icons{
+    font-size: 25px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.f-icons:hover{
+    color: white;
+}
+
+@media screen and (max-width:980px) {
+    .nav-item a{
+        margin-left: 40px;
+    }
+
+    .btn{
+        background-color: hsl(51, 100%, 49%);
+    }
+
+    .row{
+        text-align: center;
+    }
+
+    .row img{
+        width: 100%;
+    }
+
+    .testmonial-col img{
+        width: 80px;
+    }
+
+    .limg-rows h2{
+        margin-top: 400px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    h1{
+        font-size: 3.5rem;
+    }
+
+    .Top-page{
+        padding-left: 1%;
+        padding-right: 1%;
+        background-position: center;
+    }
+
+    .mid-text{
+        text-align: center;
+    }
+    
+    .limg-rows{
+        padding: 0px;
+        text-align: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .bottom-gallery img{
+        max-width: 50%;
+    }
+    
+    
+}
+
+
+@media screen and (max-width:375px){
+    .Top-page{
+        padding: 20px 2%;
+        padding-bottom: 180px;
+        background-position: center;
+    }
+
+    h1{
+        margin-top: 80px;
+        font-size: 2.6rem;
+    }
+
+    .mid-text{
+        padding: 15% 8%;
+        text-align: center;
+    }
+
+    .limg-rows{
+        padding: 0px;
+        text-align: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .limg-rows h2,p{
+        padding: 8px 20px;
+    }
+
+    .footer{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+
+
+
+
+
